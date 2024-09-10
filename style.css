@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:wght@400;700&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:wght@400;700&family=Ubuntu:wght@700&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(download.jpeg);
+}
+.bottom{
+    
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+   
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+     width: 80vw;
+     cursor: pointer; 
+
+}
+.songitem-container{
+    margin-top: 74px;
+}
+.song-item{
+height: 50px;
+display: flex;
+background-color: white;
+width: 80%;
+color: black;
+margin: 12px 0;
+justify-content: space-around;
+align-items: center;
+border-radius: 34px;
+}
+.song-item img{
+    width: 43px;
+    margin: 0 13px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.song-info{
+    position: absolute;
+    display: flex;
+    left: 10vw;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+.song-info img{
+    opacity: 0;
+    transition: opacity 1s ease-in-out ;
+}
+
